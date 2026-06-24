@@ -1,0 +1,137 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v24.17.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\shrut\Documents\Codex\2026-06-24\github-app-connector-76869538009648d5b282a4bb21c3d157\work\lifepath-ai\.npmrc
+5 silly config load:file:C:\Users\shrut\.npmrc
+6 silly config load:file:C:\Users\shrut\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--fetch-timeout" "30000" "--fetch-retries" "1"
+9 verbose logfile logs-max:10 dir:C:\Users\shrut\Documents\Codex\2026-06-24\github-app-connector-76869538009648d5b282a4bb21c3d157\work\lifepath-ai\.npm-cache\_logs\2026-06-24T21_46_42_523Z-
+10 verbose logfile C:\Users\shrut\Documents\Codex\2026-06-24\github-app-connector-76869538009648d5b282a4bb21c3d157\work\lifepath-ai\.npm-cache\_logs\2026-06-24T21_46_42_523Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest framer-motion@^11.18.2
+15 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+16 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+17 http fetch GET https://registry.npmjs.org/framer-motion attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/framer-motion attempt 2 failed with EACCES
+20 silly fetch manifest lucide-react@^0.470.0
+21 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+22 http fetch GET https://registry.npmjs.org/lucide-react attempt 1 failed with EACCES
+23 http fetch GET https://registry.npmjs.org/lucide-react attempt 2 failed with EACCES
+24 silly fetch manifest react@^19.2.6
+25 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+26 http fetch GET https://registry.npmjs.org/react attempt 1 failed with EACCES
+27 http fetch GET https://registry.npmjs.org/react attempt 2 failed with EACCES
+28 silly fetch manifest react-dom@^19.2.6
+29 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+30 http fetch GET https://registry.npmjs.org/react-dom attempt 1 failed with EACCES
+31 http fetch GET https://registry.npmjs.org/react-dom attempt 2 failed with EACCES
+32 silly fetch manifest react-router-dom@^6.30.4
+33 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+34 http fetch GET https://registry.npmjs.org/react-router-dom attempt 1 failed with EACCES
+35 http fetch GET https://registry.npmjs.org/react-router-dom attempt 2 failed with EACCES
+36 silly fetch manifest recharts@^2.15.4
+37 silly packumentCache full:https://registry.npmjs.org/recharts cache-miss
+38 http fetch GET https://registry.npmjs.org/recharts attempt 1 failed with EACCES
+39 http fetch GET https://registry.npmjs.org/recharts attempt 2 failed with EACCES
+40 silly fetch manifest @eslint/js@^10.0.1
+41 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs cache-miss
+42 http fetch GET https://registry.npmjs.org/@eslint%2fjs attempt 1 failed with EACCES
+43 http fetch GET https://registry.npmjs.org/@eslint%2fjs attempt 2 failed with EACCES
+44 silly fetch manifest @types/react@^19.2.14
+45 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+46 http fetch GET https://registry.npmjs.org/@types%2freact attempt 1 failed with EACCES
+47 http fetch GET https://registry.npmjs.org/@types%2freact attempt 2 failed with EACCES
+48 silly fetch manifest @types/react-dom@^19.2.3
+49 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+50 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 1 failed with EACCES
+51 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 2 failed with EACCES
+52 silly fetch manifest @vitejs/plugin-react@^6.0.1
+53 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+54 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 1 failed with EACCES
+55 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 2 failed with EACCES
+56 silly fetch manifest autoprefixer@^10.4.19
+57 silly packumentCache full:https://registry.npmjs.org/autoprefixer cache-miss
+58 http fetch GET https://registry.npmjs.org/autoprefixer attempt 1 failed with EACCES
+59 http fetch GET https://registry.npmjs.org/autoprefixer attempt 2 failed with EACCES
+60 silly fetch manifest eslint@^10.3.0
+61 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+62 http fetch GET https://registry.npmjs.org/eslint attempt 1 failed with EACCES
+63 http fetch GET https://registry.npmjs.org/eslint attempt 2 failed with EACCES
+64 silly fetch manifest eslint-plugin-react-hooks@^7.1.1
+65 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks cache-miss
+66 http fetch GET https://registry.npmjs.org/eslint-plugin-react-hooks attempt 1 failed with EACCES
+67 http fetch GET https://registry.npmjs.org/eslint-plugin-react-hooks attempt 2 failed with EACCES
+68 silly fetch manifest eslint-plugin-react-refresh@^0.5.2
+69 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-refresh cache-miss
+70 http fetch GET https://registry.npmjs.org/eslint-plugin-react-refresh attempt 1 failed with EACCES
+71 http fetch GET https://registry.npmjs.org/eslint-plugin-react-refresh attempt 2 failed with EACCES
+72 silly fetch manifest postcss@^8.4.40
+73 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+74 http fetch GET https://registry.npmjs.org/postcss attempt 1 failed with EACCES
+75 http fetch GET https://registry.npmjs.org/postcss attempt 2 failed with EACCES
+76 silly fetch manifest tailwindcss@^3.4.4
+77 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+78 http fetch GET https://registry.npmjs.org/tailwindcss attempt 1 failed with EACCES
+79 http fetch GET https://registry.npmjs.org/tailwindcss attempt 2 failed with EACCES
+80 silly fetch manifest vite@^8.0.12
+81 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+82 http fetch GET https://registry.npmjs.org/vite attempt 1 failed with EACCES
+83 http fetch GET https://registry.npmjs.org/vite attempt 2 failed with EACCES
+84 silly placeDep ROOT @eslint/js@ OK for: lifepath-ai@0.0.0 want: ^10.0.1
+85 silly placeDep ROOT @types/react@ OK for: lifepath-ai@0.0.0 want: ^19.2.14
+86 silly placeDep ROOT @types/react-dom@ OK for: lifepath-ai@0.0.0 want: ^19.2.3
+87 silly placeDep ROOT @vitejs/plugin-react@ OK for: lifepath-ai@0.0.0 want: ^6.0.1
+88 silly placeDep ROOT autoprefixer@ OK for: lifepath-ai@0.0.0 want: ^10.4.19
+89 silly placeDep ROOT eslint@ OK for: lifepath-ai@0.0.0 want: ^10.3.0
+90 silly placeDep ROOT eslint-plugin-react-hooks@ OK for: lifepath-ai@0.0.0 want: ^7.1.1
+91 silly placeDep ROOT eslint-plugin-react-refresh@ OK for: lifepath-ai@0.0.0 want: ^0.5.2
+92 silly placeDep ROOT framer-motion@ OK for: lifepath-ai@0.0.0 want: ^11.18.2
+93 silly placeDep ROOT lucide-react@ OK for: lifepath-ai@0.0.0 want: ^0.470.0
+94 silly placeDep ROOT postcss@ OK for: lifepath-ai@0.0.0 want: ^8.4.40
+95 silly placeDep ROOT react@ OK for: lifepath-ai@0.0.0 want: ^19.2.6
+96 silly placeDep ROOT react-dom@ OK for: lifepath-ai@0.0.0 want: ^19.2.6
+97 silly placeDep ROOT react-router-dom@ OK for: lifepath-ai@0.0.0 want: ^6.30.4
+98 silly placeDep ROOT recharts@ OK for: lifepath-ai@0.0.0 want: ^2.15.4
+99 silly placeDep ROOT tailwindcss@ OK for: lifepath-ai@0.0.0 want: ^3.4.4
+100 silly placeDep ROOT vite@ OK for: lifepath-ai@0.0.0 want: ^8.0.12
+101 verbose type system
+102 verbose stack FetchError: request to https://registry.npmjs.org/@eslint%2fjs failed, reason: 
+102 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+102 verbose stack     at ClientRequest.emit (node:events:509:28)
+102 verbose stack     at emitErrorEvent (node:_http_client:109:11)
+102 verbose stack     at _destroy (node:_http_client:993:9)
+102 verbose stack     at onSocketNT (node:_http_client:1014:5)
+102 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+103 error code EACCES
+104 error errno EACCES
+105 error FetchError: request to https://registry.npmjs.org/@eslint%2fjs failed, reason: 
+105 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+105 error     at ClientRequest.emit (node:events:509:28)
+105 error     at emitErrorEvent (node:_http_client:109:11)
+105 error     at _destroy (node:_http_client:993:9)
+105 error     at onSocketNT (node:_http_client:1014:5)
+105 error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+105 error   code: 'EACCES',
+105 error   errno: 'EACCES',
+105 error   type: 'system',
+105 error   requiredBy: '.'
+105 error }
+106 error
+106 error The operation was rejected by your operating system.
+106 error It's possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.
+106 error
+106 error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.
+107 silly unfinished npm timer reify 1782337603693
+108 silly unfinished npm timer reify:loadTrees 1782337603695
+109 verbose cwd C:\Users\shrut\Documents\Codex\2026-06-24\github-app-connector-76869538009648d5b282a4bb21c3d157\work\lifepath-ai
+110 verbose os Windows_NT 10.0.26200
+111 verbose node v24.17.0
+112 verbose npm  v11.13.0
+113 verbose exit 1
+114 verbose code 1
+115 error A complete log of this run can be found in: C:\Users\shrut\Documents\Codex\2026-06-24\github-app-connector-76869538009648d5b282a4bb21c3d157\work\lifepath-ai\.npm-cache\_logs\2026-06-24T21_46_42_523Z-debug-0.log
